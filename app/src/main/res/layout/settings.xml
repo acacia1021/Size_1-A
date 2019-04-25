@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/Tabs"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        app:menu="@menu/my_navigation_items">
+
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <Button
+        android:id="@+id/eProfile"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Edit Profile"
+        android:layout_below="@id/Tabs"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/smConnect"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/eProfile"
+        android:text="Social Media Connect" />
+
+    <Button
+        android:id="@+id/preference"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/smConnect"
+        android:text="Preference" />
+
+    <Button
+        android:id="@+id/pPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/preference"
+        android:text="Privacy Policy" />
+
+    <Button
+        android:id="@+id/tOfService"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/pPolicy"
+        android:text="Terms of Service" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Log Out" />
+</RelativeLayout>
