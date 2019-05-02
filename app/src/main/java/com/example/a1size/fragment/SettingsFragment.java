@@ -11,12 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.a1size.R;
-import com.example.a1size.Settings.EProfileActivity;
-import com.example.a1size.Settings.PreferenceActivity;
-import com.example.a1size.Settings.PrivacyPolicyActivity;
-import com.example.a1size.Settings.SocialMediaActivity;
-import com.example.a1size.Settings.TermServicesActivity;
+import com.example.Settings.EProfileActivity;
+import com.example.Settings.PreferenceActivity;
+import com.example.Settings.PrivacyPolicyActivity;
+import com.example.Settings.SocialMediaActivity;
+import com.example.Settings.TermServicesActivity;
+import com.example.size1.R;
 
 public class SettingsFragment extends Fragment {
     private final String TAG = "SettingsFragment";
@@ -30,7 +30,7 @@ public class SettingsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_settings,container,false);
+        return inflater.inflate(R.layout.settings,container,false);
     }
 
     @Override

@@ -25,8 +25,10 @@ import android.widget.Toast;
 //import com.example.instagramapplication.Post;
 //import com.example.instagramapplication.R;
 //import com.parse.FindCallback;
-import com.example.a1size.Post;
-import com.example.a1size.R;
+//import com.example.a1size.Post;
+//import com.example.a1size.R;
+import com.example.size1.R;
+import com.example.size1.fragments.Post;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseQuery;
@@ -53,7 +55,7 @@ public class CreationFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_creation,container, false);
+        return inflater.inflate(R.layout.creation,container, false);
     }
 
     // This event is triggered soon after onCreateView().

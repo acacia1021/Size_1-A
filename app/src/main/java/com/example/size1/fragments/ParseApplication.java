@@ -10,7 +10,7 @@ public class ParseApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        ParseObject.registerSubclass(HomeScreen.class);
+        ParseObject.registerSubclass(Post.class);
 
         // set applicationId, and server server based on the values in the Heroku fragment_settings.
         // clientKey is not needed unless explicitly configured
