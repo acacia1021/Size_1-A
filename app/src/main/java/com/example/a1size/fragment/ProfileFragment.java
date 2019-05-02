@@ -1,8 +1,9 @@
-package com.example.size1.fragments;
+package com.example.a1size.fragment;
 
 import android.support.v4.app.Fragment;
 import android.util.Log;
 
+import com.example.size1.fragments.Post;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;

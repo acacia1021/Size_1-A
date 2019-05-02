@@ -1,4 +1,4 @@
-package com.example.size1.fragments;
+package com.example.a1size.fragment;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -30,11 +30,11 @@ public class HomeScreen extends AppCompatActivity {
                 Fragment fragment;
                 switch (item.getItemId()) {
                     case R.id.Home:
-                        fragment = new com.example.a1size.fragment.CreationFragment();
+                        fragment = new Fragment();
                         Toast.makeText(HomeScreen.this, "Home!", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.Profile:
-                        fragment = new com.example.a1size.fragment.CreationFragment();
+                        fragment = new com.example.a1size.fragment.ProfileFragment();
                         Toast.makeText(HomeScreen.this, "Profile!", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.creation:

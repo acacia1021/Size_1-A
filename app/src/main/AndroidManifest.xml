@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".fragments.HomeScreen"></activity>
+        <activity android:name="com.example.a1size.fragment.HomeScreen"></activity>
         <activity android:name=".fragments.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
